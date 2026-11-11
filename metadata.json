@@ -1,0 +1,6 @@
+{
+  "name": "Pai e Filho Barbearia",
+  "description": "Barbearia de alto padrão com tradição entre gerações, cortes visagistas e barboterapia clássica.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

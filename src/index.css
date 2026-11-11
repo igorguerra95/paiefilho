@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Oswald", sans-serif;
+  --font-sans: "Raleway", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  --color-brand-dark: #090D16;
+  --color-brand-surface: #0F172A;
+  --color-brand-card: #141E30;
+  --color-brand-card-hover: #1A2842;
+  --color-brand-border: #1E293B;
+  --color-brand-border-light: #334155;
+  --color-brand-accent: #EA580C;
+  --color-brand-accent-hover: #F97316;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: "Raleway", "Roboto", sans-serif;
+  }
+
+  body {
+    background-color: #090D16;
+    color: #E2E8F0;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3 {
+    font-family: "Playfair Display", Georgia, serif;
+  }
+}
+
+.font-serif-luxury {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.font-display-badge {
+  font-family: "Oswald", sans-serif;
+}
+
+.bg-radial-vignette {
+  background: radial-gradient(circle at 50% 20%, rgba(234, 88, 12, 0.12) 0%, transparent 60%);
+}
+
+.luxury-gradient-text {
+  background: linear-gradient(135deg, #FFFFFF 20%, #F1F5F9 55%, #EA580C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.amber-gradient-text {
+  background: linear-gradient(135deg, #FDBA74 0%, #EA580C 60%, #C2410C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hairline-border {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hairline-card {
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
+}
+
+.glow-subtle {
+  box-shadow: 0 0 45px -12px rgba(234, 88, 12, 0.28);
+}
